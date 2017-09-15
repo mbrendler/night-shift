@@ -1,5 +1,3 @@
-// cc -o night-shift -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/PrivateFrameworks -framework Foundation -framework CoreBrightness main.m
-
 #import <Foundation/Foundation.h>
 
 // -- private api start ------------------------------------------------------
