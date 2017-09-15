@@ -35,7 +35,6 @@ int main() {
     CBBlueLightClient *client = [[CBBlueLightClient alloc] init];
     StatusData status;
     [client getBlueLightStatus:&status];
-    printf("%d\n", status.enabled);
     [client setEnabled:!status.enabled];
     return 0;
 }
