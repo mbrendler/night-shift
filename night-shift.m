@@ -35,6 +35,6 @@ int main() {
     CBBlueLightClient *client = [[CBBlueLightClient alloc] init];
     StatusData status;
     [client getBlueLightStatus:&status];
-    [client setEnabled:!status.enabled];
+    client.enabled = !status.enabled;
     return 0;
 }
