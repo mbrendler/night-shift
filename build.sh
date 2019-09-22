@@ -4,7 +4,7 @@ set -ex
 
 CC="${CC:-cc}"
 
-PRIVATE_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/PrivateFrameworks
+PRIVATE_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/PrivateFrameworks
 
 "${CC}" \
   -Wall \
